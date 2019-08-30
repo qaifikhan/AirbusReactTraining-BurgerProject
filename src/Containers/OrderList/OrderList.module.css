@@ -1,0 +1,19 @@
+.MainContainer {
+    width: 100%;
+    min-height: 100vh;
+    padding: 48px 4% 24px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(196, 131, 67, 0.1);
+}
+
+.OrderCard {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    margin: 16px auto;
+}

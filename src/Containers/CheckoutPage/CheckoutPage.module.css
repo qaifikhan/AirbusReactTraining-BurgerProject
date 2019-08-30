@@ -1,0 +1,23 @@
+.MainContainer {
+    padding: 80px 4% 24px;
+    display: flex;
+    justify-content: stretch;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgba(196, 131, 67, 0.1);
+}
+
+.BurgerWrapper {
+    width: 50%;
+    overflow-y: auto;
+}
+
+.Burger {
+    width: 100%;
+    max-width: 400px;
+}
+
+.BurgerBuilder {
+    padding: 36px;
+    box-sizing: border-box;
+}

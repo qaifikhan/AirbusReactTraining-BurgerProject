@@ -1,0 +1,30 @@
+.Topbar {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 48px 8px;
+    background-color: #160d06;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px #ccc;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RightMenu > a {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: #C48343;
+}
+
+.RightMenu > a:last-of-type {
+    margin-left: 24px;
+}
